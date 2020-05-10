@@ -57,6 +57,7 @@ const Formulario = ({createCita}) => {
                <label>Nombre Mascota</label>
                <input 
                    type = 'text'
+                   autoComplete = 'off'
                    name = 'mascota'
                    className = 'u-full-width'
                    placeholder = 'Nombre mascota'
@@ -67,6 +68,7 @@ const Formulario = ({createCita}) => {
                 <label>Nombre Dueño</label>
                 <input 
                    type = 'text'
+                   autoComplete = 'off'
                    name = 'propietario'
                    className = 'u-full-width'
                    placeholder = 'Nombre dueño de la mascota'

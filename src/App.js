@@ -33,7 +33,7 @@ function App() {
 
   return (
     <Fragment>
-      <h1>Administrador de pacientes</h1>
+      <h1>Administrador de citas</h1>
 
       <div className = 'container'>
         <div className = 'row'>
